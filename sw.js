@@ -4,11 +4,11 @@ const cacheName = 'binary-clock';
 
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(cacheName).then((c) => c.addAll([
-    '/',
-    '/index.html',
-    '/index.css',
-    '/index.js',
-    '/binary-clock.js'
+    './',
+    './index.html',
+    './index.css',
+    './index.js',
+    './binary-clock.js'
   ])));
 });
 
