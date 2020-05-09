@@ -1,0 +1,16 @@
+{
+  "name": "binary-clock",
+  "description": "A simple binary clock progressive web app",
+  "repository": "Steven-Roberts/Binary-Clock",
+  "devDependencies": {
+    "http-server": "^0.12.3",
+    "semistandard": "^14.2.0",
+    "stylelint": "^13.3.3",
+    "stylelint-config-standard": "^20.0.0"
+  },
+  "scripts": {
+    "lint": "stylelint --config stylelint-config-standard *.css && semistandard",
+    "start": "http-server"
+  },
+  "license": "MIT"
+}
